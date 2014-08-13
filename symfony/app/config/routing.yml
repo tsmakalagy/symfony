@@ -1,0 +1,8 @@
+godana_tuto:
+    resource: "@GodanaTutoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
