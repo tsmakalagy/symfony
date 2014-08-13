@@ -57,12 +57,13 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         auto_mapping: true
 
+# Doctrine MongoDB configuration
 doctrine_mongodb:
     connections:
         default:
-            server: mongodb://localhost:27017
+            server: mongodb://php_mongo_admin:123456@localhost:27017
             options: {}
-    default_database: test_database
+    default_database: symfony_db
     document_managers:
         default:
             auto_mapping: true
